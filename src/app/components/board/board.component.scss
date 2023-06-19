@@ -1,0 +1,17 @@
+.board {
+  position: absolute;
+  background-color: white;
+  top: 50px;
+  left: 50px;
+  display: inline-block;
+}
+.obstacle-popup {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  overflow-x: auto;
+}
+.input {
+  overflow: hidden;
+}

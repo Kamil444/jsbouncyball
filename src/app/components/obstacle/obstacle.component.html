@@ -1,0 +1,8 @@
+<div
+  class="obstacle"
+  [style.top.px]="obstacle.height[0]"
+  [style.left.px]="obstacle.width[0]"
+  [style.width.px]="obstacle.width[1] - obstacle.width[0]"
+  [style.height.px]="obstacle.height[1] - obstacle.height[0]"
+  [ngStyle]="osbtacleColor()"
+></div>

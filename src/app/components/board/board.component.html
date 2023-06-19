@@ -1,0 +1,12 @@
+<div
+  class="board"
+  [style.width.px]="boardWidth"
+  [style.height.px]="boardHeight"
+>
+  <app-ball [ball]="ballObject"></app-ball>
+  <app-obstacle
+    *ngFor="let obstacles of obatacleArray"
+    [obstacle]="obstacles"
+  ></app-obstacle>
+</div>
+<button (click)="test()">Stop Game</button>
